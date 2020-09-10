@@ -1,4 +1,4 @@
-FIX ERRATAS.H IN NRF SDK 16 with KEIL C
+FIX NRF_ERRATAS.H IN NRF SDK 16 with KEIL C
 
 1. Rename compiler_abstraction.h in nRF5SDK160098a08e2\modules\nrfx\mdk to compiler_abstraction.hbackup
 2. Open a project (e.g. nRF5SDK160098a08e2\examples\peripheral\blinky\pca10040\s132\arm5_no_packs)
