@@ -1,0 +1,16 @@
+FIX ERRATAS.H IN NRF SDK 16 with KEIL C
+
+1. Rename compiler_abstraction.h in nRF5SDK160098a08e2\modules\nrfx\mdk to compiler_abstraction.hbackup
+2. Open a project (e.g. nRF5SDK160098a08e2\examples\peripheral\blinky\pca10040\s132\arm5_no_packs)
+
+3. Open Select Software Packs, change NordicSemiconductor::nRF_DeviceFamilyPack from "excluded" to "fixed" (version 8.32.1)
+4. Check that NordicSemiconductor::nRF_DeviceFamilyPack_NordicLicense is fixed, version 8.27.0 
+
+5. Open Manage Run-Time Environment -> Device, tick all 2 checkboxes
+
+6. Close project
+7. Keep .uvoptx and .uvprojx files, delete others
+8. Reopen project and build, we're done!
+
+@bluelul
+10/09/2020
